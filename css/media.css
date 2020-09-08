@@ -1,0 +1,61 @@
+/* Media Query */
+
+
+/* Small devices (landscape phones, 414px and up) */
+@media(max-width: 767px) {
+
+  /* nav */
+  .nav .nav-ar {
+    position: static;
+  }
+
+  .navbar-default .navbar-collapse {
+    margin: 0
+  }
+
+  .navbar-toggle {
+    background-color: #CCC
+  }
+
+  .navbar-toggle .icon-bar {
+    background-color: #333
+  }
+
+  /* home */
+
+  .home .item .slide-text h1 {
+    font-size: 3em;
+  }
+
+  .home .item .slide-text {
+    margin: -65px 0;
+  }
+
+  .home .item .inside-img {
+    position: unset;
+    margin-top: 30px;
+  }
+
+  /* services */
+
+  .services .col-lg-4 {
+    margin-bottom: 15px;
+  }
+
+  /* choose us */
+
+  .choose-us .h1 {
+    font-size: 30px;
+  }
+
+  .choose-us p {
+    margin: 0 40px;
+    font-size: 20px;
+  }
+
+  /* coptyright */
+
+  .coptyright p {
+    font-size: inherit
+  }
+}

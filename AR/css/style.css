@@ -1,0 +1,433 @@
+/* Fonts */
+@font-face {
+  font-family: fontFacebolf;
+  src: url(fonts/facebook/FACEBOLF.OTF);
+}
+/* Fonts */
+
+/* * {
+  font-family: fontFacebolf;
+} */
+
+a:focus{
+  outline: none !important;
+}
+
+.scroll-top {
+  color: #FFF;
+  font-size: 25px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 15px;
+  bottom: 30px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.78);
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+  display: none;
+}
+
+.navbar {
+  padding: 10px;
+}
+
+.navbar-default {
+  background-color: #FFF;
+  border-color: #FFF;
+}
+
+.navbar-default .navbar-collapse {
+  margin-right: 50px;
+  font-size: 1.2em;
+}
+
+.navbar-default .navbar-nav>.active,
+.navbar-default .navbar-nav>.active:hover {
+  color: #333 !important;
+  background-color: #FFF !important;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover {
+  color: #333 !important;
+  background-color: #FFF !important;
+}
+
+.navbar-brand{
+  position: absolute;
+  top: 0;
+  padding: 0;
+}
+
+.navbar-header a {
+  color: #333 !important;
+  font-size: 25px;
+}
+
+.nav>li{
+  padding: 0 10px;
+}
+
+.nav .nav-en{
+  position: absolute;
+  left: 10px;
+}
+
+
+.nav>li>a{
+  color: #FFF;
+}
+
+.nav>li>a:focus,
+.nav>li>a:hover{
+  text-decoration: none;
+  color: #333;
+}
+
+/* End Navbar */
+
+/* Start Sections  */
+
+.block {
+  padding: 50px 0;
+  /* margin-bottom: 50px; */
+}
+
+.block:first-of-type {
+  padding: 0;
+}
+
+.block h2 {
+  font-weight: 600;
+}
+
+/* End Sections */
+
+/* Start Section Social */
+
+/* .social {
+background-color: #FFF;
+position: fixed;
+top: 40%;
+z-index: 999;
+right: 0;
+height: 160px;
+width: 60px;
+border-radius: 10px 0 0 10px;
+}
+
+.social img {
+  padding: 10px 15px;
+} */
+
+/* End Section Social */
+
+/* Start Section Home */
+
+.home .item .img-slider {
+  height: 650px;
+  min-width: 100%;
+}
+
+.home .item img {
+  max-width: 100%;
+}
+
+.home .item .slide-text h1 {
+  font-size: 4.5em;
+}
+
+.home .item .slide-text p {
+  font-family: 'Poppins', sans-serif;
+}
+
+.home .item .carousel-caption {
+  right: 10%
+}
+
+.home .item .inside-img{
+  position: relative;
+  bottom: 70px;
+}
+
+.home .item .slide-text .btn {
+  padding: 15px 30px;
+  border-radius: 30px;
+  color: #754fa1;
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+/* End Section Home */
+
+/* Start Section About */
+
+/* .about{
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+} */
+.about>h2 {
+  margin-bottom: 50px
+}
+.about img {
+  max-width: 100%;
+}
+.about p {
+  margin: 40px 0;
+  line-height: 2;
+  font-size: 18px;
+  color: #686767;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* End About */
+
+/* Start Services */
+
+.feature-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.feature-box .feature-box-icon {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  background: rgba(0, 0, 0, 0.06);
+  border-radius: 100%;
+  color: #FFF;
+  font-size: 16px;
+  font-size: 1rem;
+  position: relative;
+  top: 7px;
+  text-align: center;
+  padding: 0.8em;
+  height: 1px;
+  width: 2.7em;
+  height: 2.7em;
+}
+
+.feature-box .feature-box-info {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%;
+  padding-right: 15px;
+}
+
+.text-4 {
+  font-size: 1.2em !important;
+}
+
+.services {
+  padding-bottom: 50px;
+  background: linear-gradient(to right, #754fa1, #e43b85);
+}
+
+.services h2,
+.services p,
+.services h4 {
+  color: #FFF;
+}
+
+.services .services-header {
+  padding: 70px
+}
+
+.services .one {
+  margin-bottom: 40px;
+}
+
+.services .two {
+  margin-bottom: 40px;
+}
+
+/* End Section Services */
+
+/* Start Section Features */
+
+.features {
+  padding-bottom: 30px;
+  margin-top: -10px;
+}
+
+.features h2 {
+  margin-bottom: 30px;
+  font-size: 35px;
+}
+
+.features .feat i {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.features .feat p {
+  color: #666;
+  line-height: 2em;
+}
+
+/* End Section Features */
+
+/* Start Choose Us */
+
+.choose-us{
+  margin-top: 30px;
+}
+
+.choose-us .info {
+  padding: 0
+}
+
+.choose-us img {
+  height: 500px;
+  max-width: 100%
+}
+
+.choose-us .info:last-child {
+  height: 500px;
+  background: linear-gradient(to right, #754fa1, #e43b85);
+  color: #FFF;
+  padding-top: 10px;
+}
+
+.choose-us .h1 {
+  margin: 60px 80px;
+}
+
+.choose-us p {
+  font-family: 'Poppins', sans-serif;
+  margin: 0 80px;
+  line-height: 2;
+  font-size: 18px;
+}
+
+/* .choose-us .read-more {
+  text-decoration: none;
+  color: #FFF;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  background: #ed1d24;
+  padding: 8px 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+} */
+
+/* End Choose Us */
+
+/* Start Section Contact us */
+
+.contact {
+  padding: 0;
+}
+
+.contact-us {
+  min-height: 400px;
+}
+
+.contact .col-md-6 {
+  background: #CCC;
+  padding: 0 0 !important;
+}
+
+.contact-us .filds {
+  min-height: 400px;
+  padding: 40px;
+}
+
+.contact-us .filds p {
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 25px;
+}
+
+.contact-us .filds textarea {
+  height: 107px;
+}
+
+.contact-us input[type='text'],
+.contact-us textarea {
+  border: none;
+}
+
+/* End Section Contact us */
+
+/* Start Section Map */
+
+.google-ma {
+  background: #EEE;
+}
+
+.map_section iframe{
+  height: 568px;
+  width: 100% !important;
+  border: 0 !important;
+}
+
+/* End Section Map */
+
+/* Start Section coptyright */
+.coptyright{
+  padding: 8px;
+}
+
+.coptyright p {
+  font-family: 'Poppins', sans-serif;
+  padding-top: 10px;
+  font-size: 17px
+}
+
+.coptyright a {
+  color: #333333
+}
+
+.coptyright i {
+  padding-top: 10px;
+  font-size: 2em;
+  padding-right: 15px;
+}
+/* End Section coptyright */
+
+/* Start Section Companies */
+
+.companies{
+  margin: 50px;
+}
+
+.companies h2.title-2 {
+  margin-top: 0;
+}
+
+.row.partners {
+  margin: 0;
+}
+
+.partner-images {
+  border-radius: 3px;
+  background: #ffffff;
+  text-align: center;
+  line-height: 100px;
+  margin: 10px 0;
+}
+
+.owl-carousel .owl-item img {
+  width: auto !important;
+  display: inline-block !important;
+}
+
+/* Endxx   Section Companies */
+
+.owl-dots{display: none}
